@@ -1,6 +1,6 @@
 "use client"
 import { Heading2, Heading3 } from "@/components/common/typography"
-import { SignInForm } from "@/components/forms/auth-forms"
+import { LoginForm } from "@/components/forms/auth-forms"
 import Logo from "@/public/assets/main-logo.svg"
 import Image from "next/image"
 
@@ -14,7 +14,7 @@ export default function Page () {
                     <Image src={Logo} alt="Logo" width={300} height={200}/> 
                 </div>
                 <Heading3 className="p-3"> Sign In to the Portal </Heading3>
-                <SignInForm /> 
+                <LoginForm /> 
             </div>
         </div>
     )

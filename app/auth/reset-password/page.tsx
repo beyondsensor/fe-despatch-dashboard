@@ -1,5 +1,5 @@
 import { Heading2, Heading3 } from "@/components/common/typography"
-import { SignInForm, SignupForm } from "@/components/forms/auth-forms"
+import { LoginForm, SignupForm } from "@/components/forms/auth-forms"
 import Logo from "@/public/assets/main-logo.svg"
 import Image from "next/image"
 
