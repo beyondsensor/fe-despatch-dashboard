@@ -1,16 +1,22 @@
-# fe-despatch-dashboard
-Despatch Dashboard is designed to support the management of Assignments and works for a Project, and it is designed to support a project for management. 
+# next-template
 
+A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-## Business Concepts 
+## Usage
 
-| Tables   |      Description     | 
-|----------|:-------------:|
-| Project | A Project refers to a Customer, where they engage an Agency for Despatch Works. |
-| Request Type | A defined Request and Job Nature needed for the Project |
-| Request | A particular transaction |
-| Appointment | A particular date/time which the Personnel will need to be there |
-| Report | A Report deliverable that is generated for our |
+```bash
+npx create-next-app -e https://github.com/shadcn/next-template
+```
 
-## Target Customer 
-This dashboard is designed for URA and Prosegur so that they can manage their field inspection on the ground. 
+## Features
+
+- Next.js 13 App Directory
+- Radix UI Primitives
+- Tailwind CSS
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
+- Tailwind CSS class sorting, merging and linting.
+
+## License
+
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
